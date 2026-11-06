@@ -1,0 +1,16 @@
+{
+  "name": "effective-train",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.26.1",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "build:site": "turbo run build && node scripts/assemble.mjs",
+    "preview": "npx --yes serve dist",
+    "new": "node scripts/new.mjs"
+  },
+  "devDependencies": {
+    "turbo": "^2.11.10"
+  }
+}
