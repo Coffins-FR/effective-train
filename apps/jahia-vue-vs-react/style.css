@@ -1,0 +1,11 @@
+/* Adjustments on top of slidev-theme-light-icons */
+
+/* The theme resets list markers: bring back numbers on ordered lists */
+.slidev-layout ol {
+  list-style: decimal;
+}
+
+/* The theme's 1.8em line height makes text-heavy slides overflow */
+.slidev-layout li {
+  line-height: 1.5em;
+}
