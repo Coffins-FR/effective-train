@@ -1,10 +1,10 @@
 {
-  "name": "second-talk",
+  "name": "jahia-vue-vs-react",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --base ${BASE_PATH:-/}second-talk/ --out dist",
+    "build": "slidev build --base ${BASE_PATH:-/}jahia-vue-vs-react/ --out dist",
     "export": "slidev export"
   },
   "dependencies": {
